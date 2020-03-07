@@ -1,6 +1,6 @@
 ---
 title: 数组的类型
-order: 4
+order: 6
 group:
   title: 基础
   order: 1

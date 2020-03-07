@@ -1,6 +1,6 @@
 ---
 title: 函数的类型
-order: 5
+order: 8
 group:
   title: 基础
   order: 1
