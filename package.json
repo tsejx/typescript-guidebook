@@ -1,0 +1,28 @@
+{
+  "name": "typescript-guidebook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn run dumi dev",
+    "build": "yarn run dumi build",
+    "deploy": "bash ./scripts/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsejx/typescript-guidebook.git"
+  },
+  "keywords": [
+    "typescript",
+    "documentation"
+  ],
+  "author": "tsejx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsejx/typescript-guidebook/issues"
+  },
+  "homepage": "https://github.com/tsejx/typescript-guidebook#readme",
+  "devDependencies": {
+    "dumi": "^1.0.0"
+  }
+}
