@@ -3,3 +3,4 @@ node_modules
 .umi/
 dist/
 yarn-error.log
+docs/.temp/
