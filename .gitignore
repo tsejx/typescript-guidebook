@@ -1,6 +1,6 @@
 node_modules
-node_modules
 .umi/
 dist/
 yarn-error.log
-docs/.temp/
+.temp/
+todo/
