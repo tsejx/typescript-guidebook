@@ -8,8 +8,7 @@
     "dev": "yarn run dumi dev --port=8080",
     "lint:md": "lint-md *.md",
     "lint:fix": "lint-md *.md --fix",
-    "build": "yarn run dumi build",
-    "deploy": "bash ./scripts/deploy.sh"
+    "build": "yarn run dumi build"
   },
   "repository": {
     "type": "git",
