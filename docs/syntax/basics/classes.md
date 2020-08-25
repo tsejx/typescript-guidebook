@@ -150,9 +150,9 @@ class Animal {
 console.log(Animal.num); // 42
 ```
 
-## TypeScript 中类的用法
+## 使用方法
 
-### public private 和 protected
+### 访问修饰符
 
 TypeScript 可以使用三种访问修饰符（Access Modifiers），分别是 `public`、`private` 和 `protected`。
 
@@ -298,7 +298,7 @@ class Animal {
 }
 ```
 
-### readonly
+### 只读修饰符
 
 只读属性关键字，只允许出现在**属性声明**或**索引签名**或**构造函数**中。
 
@@ -352,7 +352,7 @@ let a = new Animal('Jack');
 
 上面的例子中，我们定义了一个抽象类 `Animal`，并且定义了一个抽象方法 `sayHi`。在实例化抽象类的时候报错了。
 
-其次，抽象类中的抽象方法必须被子类实现：
+⚠️ **注意**：其次，抽象类中的抽象方法必须被子类实现：
 
 ```ts
 abstract class Animal {

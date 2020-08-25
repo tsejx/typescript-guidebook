@@ -1,15 +1,15 @@
 ---
-title: 接口
-order: 9
-group:
-  title: 基础
-  order: 1
 nav:
   title: 语法
   order: 1
+group:
+  title: 基础
+  order: 1
+title: 对象的类型 / 接口
+order: 9
 ---
 
-# 接口
+# 对象的类型 / 接口
 
 接口是对象的类型。
 

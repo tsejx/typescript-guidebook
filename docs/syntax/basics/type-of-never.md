@@ -1,15 +1,15 @@
 ---
-title: Never 类型
-order: 5
-group:
-  title: 基础
-  order: 1
 nav:
   title: 语法
   order: 1
+group:
+  title: 基础
+  order: 1
+title: never 类型
+order: 5
 ---
 
-# Never 类型
+# never 类型
 
 `never` 类型表示那些永不存在的值的类型。特别的，`never` 可以是永远不反悔的函数的返回值类型，也可以是变量在类型收窄中不可能为真的类型。
 
@@ -64,7 +64,7 @@ foo(() => {
 
 ---
 
-**拓展阅读**
+**参考资料：**
 
 - [知乎：TypeScript 中的 nerver 类型具体有什么用？](https://www.zhihu.com/question/354601204)
 - [TS 中何时使用 never 与 unknown 类型](https://www.zhangxinghai.cn/2019/07/24/when-to-use-never-and-unknown-in-typescript.html)

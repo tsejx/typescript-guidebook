@@ -47,7 +47,17 @@ fibonacci.push('8');
 我们也可以使用数组泛型（Array Generic）`Array<elemType>` 来表示数组：
 
 ```ts
+// 表示声明的数组必须是数字类型
 let fibonacci: Array<number> = [1, 1, 2, 3, 5];
+
+// 表示声明的数组可以是任意类型
+let foo: Array<any>;
+
+// 表示声明的数组元素必须是包含 name 与 age 的对象，并且 name 为字符串，age 为数字
+let bar: Array<{name: string; age: number}>;
+
+// 表示数组元素必须为 name 的对象爱哪个，age 可选
+let baz: Array<{name: string; age?: number}>
 ```
 
 关于泛型，可以参考 [泛型](../advanced/generics) 一章。
